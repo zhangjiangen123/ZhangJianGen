@@ -34,8 +34,10 @@
 		5475A86D1DE5724300395B8A /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5475A86C1DE5724300395B8A /* ___Tests.m */; };
 		5475A8781DE5724300395B8A /* ___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5475A8771DE5724300395B8A /* ___UITests.m */; };
 		548CAD8E1DF25E8B00FA0EFC /* XiCheViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 548CAD8D1DF25E8B00FA0EFC /* XiCheViewController.m */; };
-		548CAD911DF2627800FA0EFC /* NoCarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 548CAD901DF2627800FA0EFC /* NoCarView.m */; };
 		54924E031DEECFD2004F36F1 /* MeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54924E021DEECFD2004F36F1 /* MeTableViewCell.m */; };
+		549D8D7B1DF4FA480022A806 /* AddCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 549D8D7A1DF4FA480022A806 /* AddCarViewController.m */; };
+		549D8D7E1DF513E80022A806 /* AddCarLb.m in Sources */ = {isa = PBXBuildFile; fileRef = 549D8D7D1DF513E80022A806 /* AddCarLb.m */; };
+		549D8D811DF5501B0022A806 /* LineTF.m in Sources */ = {isa = PBXBuildFile; fileRef = 549D8D801DF5501B0022A806 /* LineTF.m */; };
 		54A399F11DE7DFFF00D75542 /* SDWeiXinPhotoContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A399F01DE7DFFF00D75542 /* SDWeiXinPhotoContainerView.m */; };
 		54A399F41DE81D5800D75542 /* ForumCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A399F31DE81D5800D75542 /* ForumCell.m */; };
 		54A399FF1DE81E3D00D75542 /* SDBrowserImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A399F91DE81E3D00D75542 /* SDBrowserImageView.m */; };
@@ -120,10 +122,14 @@
 		5475A8791DE5724300395B8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		548CAD8C1DF25E8B00FA0EFC /* XiCheViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XiCheViewController.h; sourceTree = "<group>"; };
 		548CAD8D1DF25E8B00FA0EFC /* XiCheViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XiCheViewController.m; sourceTree = "<group>"; };
-		548CAD8F1DF2627800FA0EFC /* NoCarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoCarView.h; sourceTree = "<group>"; };
-		548CAD901DF2627800FA0EFC /* NoCarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoCarView.m; sourceTree = "<group>"; };
 		54924E011DEECFD2004F36F1 /* MeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MeTableViewCell.h; path = ../../Home/View/MeTableViewCell.h; sourceTree = "<group>"; };
 		54924E021DEECFD2004F36F1 /* MeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MeTableViewCell.m; path = ../../Home/View/MeTableViewCell.m; sourceTree = "<group>"; };
+		549D8D791DF4FA480022A806 /* AddCarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCarViewController.h; sourceTree = "<group>"; };
+		549D8D7A1DF4FA480022A806 /* AddCarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCarViewController.m; sourceTree = "<group>"; };
+		549D8D7C1DF513E80022A806 /* AddCarLb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCarLb.h; sourceTree = "<group>"; };
+		549D8D7D1DF513E80022A806 /* AddCarLb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCarLb.m; sourceTree = "<group>"; };
+		549D8D7F1DF5501B0022A806 /* LineTF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineTF.h; sourceTree = "<group>"; };
+		549D8D801DF5501B0022A806 /* LineTF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineTF.m; sourceTree = "<group>"; };
 		54A399EF1DE7DFFF00D75542 /* SDWeiXinPhotoContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWeiXinPhotoContainerView.h; sourceTree = "<group>"; };
 		54A399F01DE7DFFF00D75542 /* SDWeiXinPhotoContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWeiXinPhotoContainerView.m; sourceTree = "<group>"; };
 		54A399F21DE81D5800D75542 /* ForumCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForumCell.h; sourceTree = "<group>"; };
@@ -337,6 +343,8 @@
 				5472790A1DEFCCF000D18D09 /* WeatherViewController.m */,
 				548CAD8C1DF25E8B00FA0EFC /* XiCheViewController.h */,
 				548CAD8D1DF25E8B00FA0EFC /* XiCheViewController.m */,
+				549D8D791DF4FA480022A806 /* AddCarViewController.h */,
+				549D8D7A1DF4FA480022A806 /* AddCarViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -355,10 +363,12 @@
 			children = (
 				547279181DF0138A00D18D09 /* WhiteLabel.h */,
 				547279191DF0138A00D18D09 /* WhiteLabel.m */,
+				549D8D7C1DF513E80022A806 /* AddCarLb.h */,
+				549D8D7D1DF513E80022A806 /* AddCarLb.m */,
 				5472791B1DF01FB500D18D09 /* WeatherCell.h */,
 				5472791C1DF01FB500D18D09 /* WeatherCell.m */,
-				548CAD8F1DF2627800FA0EFC /* NoCarView.h */,
-				548CAD901DF2627800FA0EFC /* NoCarView.m */,
+				549D8D7F1DF5501B0022A806 /* LineTF.h */,
+				549D8D801DF5501B0022A806 /* LineTF.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -679,9 +689,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				54A39A041DE81EAA00D75542 /* Appdelegate.m in Sources */,
+				549D8D7E1DF513E80022A806 /* AddCarLb.m in Sources */,
 				54A399FF1DE81E3D00D75542 /* SDBrowserImageView.m in Sources */,
 				547208F21DED524000AD5DB8 /* LoginVC.m in Sources */,
 				5465D09F1DE678A7006267DC /* UILabel+VerticalAlign.m in Sources */,
+				549D8D811DF5501B0022A806 /* LineTF.m in Sources */,
 				5465D0C21DE681AC006267DC /* MeViewController.m in Sources */,
 				5472791A1DF0138A00D18D09 /* WhiteLabel.m in Sources */,
 				54924E031DEECFD2004F36F1 /* MeTableViewCell.m in Sources */,
@@ -694,7 +706,6 @@
 				5465D0A01DE678A7006267DC /* UINavigationBar+Awesome.m in Sources */,
 				5465D08B1DE67830006267DC /* NaviViewController.m in Sources */,
 				5472791D1DF01FB500D18D09 /* WeatherCell.m in Sources */,
-				548CAD911DF2627800FA0EFC /* NoCarView.m in Sources */,
 				5475A8541DE5724300395B8A /* main.m in Sources */,
 				5465D0BC1DE68190006267DC /* OrderViewController.m in Sources */,
 				5465D09E1DE678A7006267DC /* UIImage+Help.m in Sources */,
@@ -702,6 +713,7 @@
 				5465D0B91DE67D9C006267DC /* tabbarViewController.m in Sources */,
 				5465D09D1DE678A7006267DC /* UIButton+CountDown.m in Sources */,
 				547279141DEFFF6500D18D09 /* ZNNetWorkTool.m in Sources */,
+				549D8D7B1DF4FA480022A806 /* AddCarViewController.m in Sources */,
 				5465D0BF1DE6819D006267DC /* ForumViewController.m in Sources */,
 				5465D0B61DE67ACF006267DC /* HomeViewController.m in Sources */,
 				54A399F11DE7DFFF00D75542 /* SDWeiXinPhotoContainerView.m in Sources */,
@@ -858,7 +870,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5RFK87KUG4;
-				GCC_PREFIX_HEADER = "/Users/zhangjiangen/Desktop/tree/车嬷嬷/车嬷嬷/BookBase.pch";
+				GCC_PREFIX_HEADER = "/Users/zhangjiangen/Desktop/tree/车嬷嬷/BookBase.pch";
 				INFOPLIST_FILE = "车嬷嬷/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -896,7 +908,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5RFK87KUG4;
-				GCC_PREFIX_HEADER = "/Users/zhangjiangen/Desktop/tree/车嬷嬷/车嬷嬷/BookBase.pch";
+				GCC_PREFIX_HEADER = "/Users/zhangjiangen/Desktop/tree/车嬷嬷/BookBase.pch";
 				INFOPLIST_FILE = "车嬷嬷/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
