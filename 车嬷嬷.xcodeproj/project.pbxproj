@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		542920E91DF7B09C00FABC15 /* AboutWeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 542920E81DF7B09C00FABC15 /* AboutWeViewController.m */; };
+		542920EC1DF7EB3400FABC15 /* MyCarBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 542920EB1DF7EB3400FABC15 /* MyCarBaseViewController.m */; };
+		542920EF1DF7EC7300FABC15 /* PreferentialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 542920EE1DF7EC7300FABC15 /* PreferentialViewController.m */; };
+		542920F21DF7EE0800FABC15 /* PreferentialCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 542920F11DF7EE0800FABC15 /* PreferentialCell.m */; };
+		542920F51DF804FD00FABC15 /* QuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 542920F41DF804FD00FABC15 /* QuestionViewController.m */; };
 		54528BA71DF1085400479085 /* ZNCommonFunc.m in Sources */ = {isa = PBXBuildFile; fileRef = 54528BA61DF1085400479085 /* ZNCommonFunc.m */; };
 		5465D08B1DE67830006267DC /* NaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5465D0881DE67830006267DC /* NaviViewController.m */; };
 		5465D09C1DE678A7006267DC /* NSDate+Help.m in Sources */ = {isa = PBXBuildFile; fileRef = 5465D08F1DE678A7006267DC /* NSDate+Help.m */; };
@@ -33,6 +38,17 @@
 		5475A8621DE5724300395B8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5475A8601DE5724300395B8A /* LaunchScreen.storyboard */; };
 		5475A86D1DE5724300395B8A /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5475A86C1DE5724300395B8A /* ___Tests.m */; };
 		5475A8781DE5724300395B8A /* ___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5475A8771DE5724300395B8A /* ___UITests.m */; };
+		5479E0F71DF6448100772C81 /* UIView+Mb.m in Sources */ = {isa = PBXBuildFile; fileRef = 5479E0F61DF6448100772C81 /* UIView+Mb.m */; };
+		5479E0F91DF656F000772C81 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5479E0F81DF656F000772C81 /* libc++.tbd */; };
+		5479E0FB1DF6570400772C81 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5479E0FA1DF6570400772C81 /* libz.tbd */; };
+		5479E0FD1DF6571000772C81 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5479E0FC1DF6571000772C81 /* libsqlite3.0.tbd */; };
+		5479E0FF1DF6571900772C81 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5479E0FE1DF6571900772C81 /* SystemConfiguration.framework */; };
+		5479E1011DF6572500772C81 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5479E1001DF6572500772C81 /* CoreTelephony.framework */; };
+		5479E1081DF6576300772C81 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5479E1031DF6576300772C81 /* libWeChatSDK.a */; };
+		5479E1091DF6576300772C81 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5479E1041DF6576300772C81 /* README.txt */; };
+		5479E10D1DF6BAEC00772C81 /* SegmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5479E10C1DF6BAEC00772C81 /* SegmentViewController.m */; };
+		5479E1101DF6BFF600772C81 /* OrderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5479E10F1DF6BFF600772C81 /* OrderVC.m */; };
+		547C601B1DF79B210064517C /* SetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 547C601A1DF79B210064517C /* SetupViewController.m */; };
 		548CAD8E1DF25E8B00FA0EFC /* XiCheViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 548CAD8D1DF25E8B00FA0EFC /* XiCheViewController.m */; };
 		54924E031DEECFD2004F36F1 /* MeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54924E021DEECFD2004F36F1 /* MeTableViewCell.m */; };
 		549D8D7B1DF4FA480022A806 /* AddCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 549D8D7A1DF4FA480022A806 /* AddCarViewController.m */; };
@@ -65,6 +81,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		542920E71DF7B09C00FABC15 /* AboutWeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutWeViewController.h; sourceTree = "<group>"; };
+		542920E81DF7B09C00FABC15 /* AboutWeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutWeViewController.m; sourceTree = "<group>"; };
+		542920EA1DF7EB3400FABC15 /* MyCarBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCarBaseViewController.h; sourceTree = "<group>"; };
+		542920EB1DF7EB3400FABC15 /* MyCarBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCarBaseViewController.m; sourceTree = "<group>"; };
+		542920ED1DF7EC7300FABC15 /* PreferentialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferentialViewController.h; sourceTree = "<group>"; };
+		542920EE1DF7EC7300FABC15 /* PreferentialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferentialViewController.m; sourceTree = "<group>"; };
+		542920F01DF7EE0800FABC15 /* PreferentialCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferentialCell.h; sourceTree = "<group>"; };
+		542920F11DF7EE0800FABC15 /* PreferentialCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferentialCell.m; sourceTree = "<group>"; };
+		542920F31DF804FD00FABC15 /* QuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionViewController.h; sourceTree = "<group>"; };
+		542920F41DF804FD00FABC15 /* QuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionViewController.m; sourceTree = "<group>"; };
 		54528BA51DF1085400479085 /* ZNCommonFunc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZNCommonFunc.h; sourceTree = "<group>"; };
 		54528BA61DF1085400479085 /* ZNCommonFunc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZNCommonFunc.m; sourceTree = "<group>"; };
 		5465D0791DE674ED006267DC /* BookBase.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookBase.pch; sourceTree = "<group>"; };
@@ -88,8 +114,8 @@
 		5465D0B51DE67ACF006267DC /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		5465D0B71DE67D9C006267DC /* tabbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tabbarViewController.h; sourceTree = "<group>"; };
 		5465D0B81DE67D9C006267DC /* tabbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tabbarViewController.m; sourceTree = "<group>"; };
-		5465D0BA1DE68190006267DC /* OrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderViewController.h; sourceTree = "<group>"; };
-		5465D0BB1DE68190006267DC /* OrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderViewController.m; sourceTree = "<group>"; };
+		5465D0BA1DE68190006267DC /* OrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OrderViewController.h; path = ../../Order/Controller/OrderViewController.h; sourceTree = "<group>"; };
+		5465D0BB1DE68190006267DC /* OrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OrderViewController.m; path = ../../Order/Controller/OrderViewController.m; sourceTree = "<group>"; };
 		5465D0BD1DE6819D006267DC /* ForumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForumViewController.h; sourceTree = "<group>"; };
 		5465D0BE1DE6819D006267DC /* ForumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForumViewController.m; sourceTree = "<group>"; };
 		5465D0C01DE681AC006267DC /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
@@ -120,6 +146,24 @@
 		5475A8731DE5724300395B8A /* 车嬷嬷UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "车嬷嬷UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5475A8771DE5724300395B8A /* ___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UITests.m"; sourceTree = "<group>"; };
 		5475A8791DE5724300395B8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5479E0F51DF6448100772C81 /* UIView+Mb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Mb.h"; sourceTree = "<group>"; };
+		5479E0F61DF6448100772C81 /* UIView+Mb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Mb.m"; sourceTree = "<group>"; };
+		5479E0F81DF656F000772C81 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		5479E0FA1DF6570400772C81 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		5479E0FC1DF6571000772C81 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		5479E0FE1DF6571900772C81 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5479E1001DF6572500772C81 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		5479E1031DF6576300772C81 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		5479E1041DF6576300772C81 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		5479E1051DF6576300772C81 /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		5479E1061DF6576300772C81 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		5479E1071DF6576300772C81 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		5479E10B1DF6BAEC00772C81 /* SegmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentViewController.h; sourceTree = "<group>"; };
+		5479E10C1DF6BAEC00772C81 /* SegmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentViewController.m; sourceTree = "<group>"; };
+		5479E10E1DF6BFF600772C81 /* OrderVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderVC.h; sourceTree = "<group>"; };
+		5479E10F1DF6BFF600772C81 /* OrderVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderVC.m; sourceTree = "<group>"; };
+		547C60191DF79B210064517C /* SetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetupViewController.h; sourceTree = "<group>"; };
+		547C601A1DF79B210064517C /* SetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetupViewController.m; sourceTree = "<group>"; };
 		548CAD8C1DF25E8B00FA0EFC /* XiCheViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XiCheViewController.h; sourceTree = "<group>"; };
 		548CAD8D1DF25E8B00FA0EFC /* XiCheViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XiCheViewController.m; sourceTree = "<group>"; };
 		54924E011DEECFD2004F36F1 /* MeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MeTableViewCell.h; path = ../../Home/View/MeTableViewCell.h; sourceTree = "<group>"; };
@@ -153,6 +197,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5479E1081DF6576300772C81 /* libWeChatSDK.a in Frameworks */,
+				5479E1011DF6572500772C81 /* CoreTelephony.framework in Frameworks */,
+				5479E0FF1DF6571900772C81 /* SystemConfiguration.framework in Frameworks */,
+				5479E0FD1DF6571000772C81 /* libsqlite3.0.tbd in Frameworks */,
+				5479E0FB1DF6570400772C81 /* libz.tbd in Frameworks */,
+				5479E0F91DF656F000772C81 /* libc++.tbd in Frameworks */,
 				63D96F9FE27F4C07AB7B0664 /* libPods-车嬷嬷.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,6 +263,8 @@
 				5465D0971DE678A7006267DC /* UINavigationBar+Awesome.m */,
 				5465D0981DE678A7006267DC /* UIView+label.h */,
 				5465D0991DE678A7006267DC /* UIView+label.m */,
+				5479E0F51DF6448100772C81 /* UIView+Mb.h */,
+				5479E0F61DF6448100772C81 /* UIView+Mb.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -230,8 +282,6 @@
 		5465D0A41DE67A52006267DC /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				5465D0BA1DE68190006267DC /* OrderViewController.h */,
-				5465D0BB1DE68190006267DC /* OrderViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -304,6 +354,20 @@
 			children = (
 				5465D0C01DE681AC006267DC /* MeViewController.h */,
 				5465D0C11DE681AC006267DC /* MeViewController.m */,
+				5465D0BA1DE68190006267DC /* OrderViewController.h */,
+				5465D0BB1DE68190006267DC /* OrderViewController.m */,
+				5479E10E1DF6BFF600772C81 /* OrderVC.h */,
+				5479E10F1DF6BFF600772C81 /* OrderVC.m */,
+				547C60191DF79B210064517C /* SetupViewController.h */,
+				547C601A1DF79B210064517C /* SetupViewController.m */,
+				542920E71DF7B09C00FABC15 /* AboutWeViewController.h */,
+				542920E81DF7B09C00FABC15 /* AboutWeViewController.m */,
+				542920EA1DF7EB3400FABC15 /* MyCarBaseViewController.h */,
+				542920EB1DF7EB3400FABC15 /* MyCarBaseViewController.m */,
+				542920ED1DF7EC7300FABC15 /* PreferentialViewController.h */,
+				542920EE1DF7EC7300FABC15 /* PreferentialViewController.m */,
+				542920F31DF804FD00FABC15 /* QuestionViewController.h */,
+				542920F41DF804FD00FABC15 /* QuestionViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -320,6 +384,8 @@
 			children = (
 				54924E011DEECFD2004F36F1 /* MeTableViewCell.h */,
 				54924E021DEECFD2004F36F1 /* MeTableViewCell.m */,
+				542920F01DF7EE0800FABC15 /* PreferentialCell.h */,
+				542920F11DF7EE0800FABC15 /* PreferentialCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -462,9 +528,32 @@
 			path = "车嬷嬷UITests";
 			sourceTree = "<group>";
 		};
+		5479E1021DF6576300772C81 /* OpenSDK1.7.5 */ = {
+			isa = PBXGroup;
+			children = (
+				5479E1031DF6576300772C81 /* libWeChatSDK.a */,
+				5479E1041DF6576300772C81 /* README.txt */,
+				5479E1051DF6576300772C81 /* WechatAuthSDK.h */,
+				5479E1061DF6576300772C81 /* WXApi.h */,
+				5479E1071DF6576300772C81 /* WXApiObject.h */,
+			);
+			path = OpenSDK1.7.5;
+			sourceTree = "<group>";
+		};
+		5479E10A1DF6BAEC00772C81 /* Segment */ = {
+			isa = PBXGroup;
+			children = (
+				5479E10B1DF6BAEC00772C81 /* SegmentViewController.h */,
+				5479E10C1DF6BAEC00772C81 /* SegmentViewController.m */,
+			);
+			path = Segment;
+			sourceTree = "<group>";
+		};
 		54A399F61DE81E3D00D75542 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5479E10A1DF6BAEC00772C81 /* Segment */,
+				5479E1021DF6576300772C81 /* OpenSDK1.7.5 */,
 				54A399F71DE81E3D00D75542 /* SDPhotoBrowser */,
 			);
 			path = Frameworks;
@@ -496,6 +585,11 @@
 		ED6D0F32C82770B4F76E9AE9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5479E1001DF6572500772C81 /* CoreTelephony.framework */,
+				5479E0FE1DF6571900772C81 /* SystemConfiguration.framework */,
+				5479E0FC1DF6571000772C81 /* libsqlite3.0.tbd */,
+				5479E0FA1DF6570400772C81 /* libz.tbd */,
+				5479E0F81DF656F000772C81 /* libc++.tbd */,
 				A56928E801614DBD88F0DFEF /* libPods-车嬷嬷.a */,
 			);
 			name = Frameworks;
@@ -615,6 +709,7 @@
 			files = (
 				5475A8621DE5724300395B8A /* LaunchScreen.storyboard in Resources */,
 				5475A85F1DE5724300395B8A /* Assets.xcassets in Resources */,
+				5479E1091DF6576300772C81 /* README.txt in Resources */,
 				5475A85D1DE5724300395B8A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -693,18 +788,25 @@
 				54A399FF1DE81E3D00D75542 /* SDBrowserImageView.m in Sources */,
 				547208F21DED524000AD5DB8 /* LoginVC.m in Sources */,
 				5465D09F1DE678A7006267DC /* UILabel+VerticalAlign.m in Sources */,
+				5479E1101DF6BFF600772C81 /* OrderVC.m in Sources */,
 				549D8D811DF5501B0022A806 /* LineTF.m in Sources */,
+				542920F51DF804FD00FABC15 /* QuestionViewController.m in Sources */,
 				5465D0C21DE681AC006267DC /* MeViewController.m in Sources */,
 				5472791A1DF0138A00D18D09 /* WhiteLabel.m in Sources */,
 				54924E031DEECFD2004F36F1 /* MeTableViewCell.m in Sources */,
 				548CAD8E1DF25E8B00FA0EFC /* XiCheViewController.m in Sources */,
 				5465D0A11DE678A7006267DC /* UIView+label.m in Sources */,
+				542920EC1DF7EB3400FABC15 /* MyCarBaseViewController.m in Sources */,
 				5465D09C1DE678A7006267DC /* NSDate+Help.m in Sources */,
+				542920F21DF7EE0800FABC15 /* PreferentialCell.m in Sources */,
 				54A39A011DE81E3D00D75542 /* SDWaitingView.m in Sources */,
 				54A39A001DE81E3D00D75542 /* SDPhotoBrowser.m in Sources */,
 				5472790B1DEFCCF000D18D09 /* WeatherViewController.m in Sources */,
+				542920EF1DF7EC7300FABC15 /* PreferentialViewController.m in Sources */,
+				547C601B1DF79B210064517C /* SetupViewController.m in Sources */,
 				5465D0A01DE678A7006267DC /* UINavigationBar+Awesome.m in Sources */,
 				5465D08B1DE67830006267DC /* NaviViewController.m in Sources */,
+				542920E91DF7B09C00FABC15 /* AboutWeViewController.m in Sources */,
 				5472791D1DF01FB500D18D09 /* WeatherCell.m in Sources */,
 				5475A8541DE5724300395B8A /* main.m in Sources */,
 				5465D0BC1DE68190006267DC /* OrderViewController.m in Sources */,
@@ -719,6 +821,8 @@
 				54A399F11DE7DFFF00D75542 /* SDWeiXinPhotoContainerView.m in Sources */,
 				547279081DEFBF9600D18D09 /* PubulishViewController.m in Sources */,
 				54528BA71DF1085400479085 /* ZNCommonFunc.m in Sources */,
+				5479E0F71DF6448100772C81 /* UIView+Mb.m in Sources */,
+				5479E10D1DF6BAEC00772C81 /* SegmentViewController.m in Sources */,
 				54A399F41DE81D5800D75542 /* ForumCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -873,6 +977,10 @@
 				GCC_PREFIX_HEADER = "/Users/zhangjiangen/Desktop/tree/车嬷嬷/BookBase.pch";
 				INFOPLIST_FILE = "车嬷嬷/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/车嬷嬷/Frameworks/OpenSDK1.7.5",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -911,6 +1019,10 @@
 				GCC_PREFIX_HEADER = "/Users/zhangjiangen/Desktop/tree/车嬷嬷/BookBase.pch";
 				INFOPLIST_FILE = "车嬷嬷/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/车嬷嬷/Frameworks/OpenSDK1.7.5",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
