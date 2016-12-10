@@ -25,6 +25,8 @@
 		5465D0BC1DE68190006267DC /* OrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5465D0BB1DE68190006267DC /* OrderViewController.m */; };
 		5465D0BF1DE6819D006267DC /* ForumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5465D0BE1DE6819D006267DC /* ForumViewController.m */; };
 		5465D0C21DE681AC006267DC /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5465D0C11DE681AC006267DC /* MeViewController.m */; };
+		546A83C41DFA623000DE3AD9 /* Serve.m in Sources */ = {isa = PBXBuildFile; fileRef = 546A83C31DFA623000DE3AD9 /* Serve.m */; };
+		546A83C71DFA87D600DE3AD9 /* DateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 546A83C61DFA87D600DE3AD9 /* DateViewController.m */; };
 		547208F21DED524000AD5DB8 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 547208F11DED524000AD5DB8 /* LoginVC.m */; };
 		547279081DEFBF9600D18D09 /* PubulishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 547279071DEFBF9600D18D09 /* PubulishViewController.m */; };
 		5472790B1DEFCCF000D18D09 /* WeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5472790A1DEFCCF000D18D09 /* WeatherViewController.m */; };
@@ -49,6 +51,9 @@
 		5479E10D1DF6BAEC00772C81 /* SegmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5479E10C1DF6BAEC00772C81 /* SegmentViewController.m */; };
 		5479E1101DF6BFF600772C81 /* OrderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5479E10F1DF6BFF600772C81 /* OrderVC.m */; };
 		547C601B1DF79B210064517C /* SetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 547C601A1DF79B210064517C /* SetupViewController.m */; };
+		5483E5F01DFA356000CDFECC /* FeedBackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5483E5EF1DFA356000CDFECC /* FeedBackViewController.m */; };
+		5483E5F31DFA47E600CDFECC /* SerVerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5483E5F21DFA47E600CDFECC /* SerVerViewController.m */; };
+		5483E5F61DFA4C1700CDFECC /* ServerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5483E5F51DFA4C1700CDFECC /* ServerCollectionViewCell.m */; };
 		548CAD8E1DF25E8B00FA0EFC /* XiCheViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 548CAD8D1DF25E8B00FA0EFC /* XiCheViewController.m */; };
 		54924E031DEECFD2004F36F1 /* MeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54924E021DEECFD2004F36F1 /* MeTableViewCell.m */; };
 		549D8D7B1DF4FA480022A806 /* AddCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 549D8D7A1DF4FA480022A806 /* AddCarViewController.m */; };
@@ -120,6 +125,10 @@
 		5465D0BE1DE6819D006267DC /* ForumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForumViewController.m; sourceTree = "<group>"; };
 		5465D0C01DE681AC006267DC /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
 		5465D0C11DE681AC006267DC /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
+		546A83C21DFA623000DE3AD9 /* Serve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Serve.h; sourceTree = "<group>"; };
+		546A83C31DFA623000DE3AD9 /* Serve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Serve.m; sourceTree = "<group>"; };
+		546A83C51DFA87D600DE3AD9 /* DateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateViewController.h; sourceTree = "<group>"; };
+		546A83C61DFA87D600DE3AD9 /* DateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateViewController.m; sourceTree = "<group>"; };
 		547208F01DED524000AD5DB8 /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
 		547208F11DED524000AD5DB8 /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
 		547279061DEFBF9600D18D09 /* PubulishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PubulishViewController.h; path = ../../Order/Controller/PubulishViewController.h; sourceTree = "<group>"; };
@@ -164,6 +173,12 @@
 		5479E10F1DF6BFF600772C81 /* OrderVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderVC.m; sourceTree = "<group>"; };
 		547C60191DF79B210064517C /* SetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetupViewController.h; sourceTree = "<group>"; };
 		547C601A1DF79B210064517C /* SetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetupViewController.m; sourceTree = "<group>"; };
+		5483E5EE1DFA356000CDFECC /* FeedBackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedBackViewController.h; sourceTree = "<group>"; };
+		5483E5EF1DFA356000CDFECC /* FeedBackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedBackViewController.m; sourceTree = "<group>"; };
+		5483E5F11DFA47E600CDFECC /* SerVerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerVerViewController.h; sourceTree = "<group>"; };
+		5483E5F21DFA47E600CDFECC /* SerVerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SerVerViewController.m; sourceTree = "<group>"; };
+		5483E5F41DFA4C1700CDFECC /* ServerCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerCollectionViewCell.h; sourceTree = "<group>"; };
+		5483E5F51DFA4C1700CDFECC /* ServerCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerCollectionViewCell.m; sourceTree = "<group>"; };
 		548CAD8C1DF25E8B00FA0EFC /* XiCheViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XiCheViewController.h; sourceTree = "<group>"; };
 		548CAD8D1DF25E8B00FA0EFC /* XiCheViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XiCheViewController.m; sourceTree = "<group>"; };
 		54924E011DEECFD2004F36F1 /* MeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MeTableViewCell.h; path = ../../Home/View/MeTableViewCell.h; sourceTree = "<group>"; };
@@ -368,6 +383,8 @@
 				542920EE1DF7EC7300FABC15 /* PreferentialViewController.m */,
 				542920F31DF804FD00FABC15 /* QuestionViewController.h */,
 				542920F41DF804FD00FABC15 /* QuestionViewController.m */,
+				5483E5EE1DFA356000CDFECC /* FeedBackViewController.h */,
+				5483E5EF1DFA356000CDFECC /* FeedBackViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -411,6 +428,10 @@
 				548CAD8D1DF25E8B00FA0EFC /* XiCheViewController.m */,
 				549D8D791DF4FA480022A806 /* AddCarViewController.h */,
 				549D8D7A1DF4FA480022A806 /* AddCarViewController.m */,
+				5483E5F11DFA47E600CDFECC /* SerVerViewController.h */,
+				5483E5F21DFA47E600CDFECC /* SerVerViewController.m */,
+				546A83C51DFA87D600DE3AD9 /* DateViewController.h */,
+				546A83C61DFA87D600DE3AD9 /* DateViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -420,6 +441,8 @@
 			children = (
 				5472791E1DF024EA00D18D09 /* Weather.h */,
 				5472791F1DF024EA00D18D09 /* Weather.m */,
+				546A83C21DFA623000DE3AD9 /* Serve.h */,
+				546A83C31DFA623000DE3AD9 /* Serve.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -435,6 +458,8 @@
 				5472791C1DF01FB500D18D09 /* WeatherCell.m */,
 				549D8D7F1DF5501B0022A806 /* LineTF.h */,
 				549D8D801DF5501B0022A806 /* LineTF.m */,
+				5483E5F41DFA4C1700CDFECC /* ServerCollectionViewCell.h */,
+				5483E5F51DFA4C1700CDFECC /* ServerCollectionViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -786,6 +811,7 @@
 				54A39A041DE81EAA00D75542 /* Appdelegate.m in Sources */,
 				549D8D7E1DF513E80022A806 /* AddCarLb.m in Sources */,
 				54A399FF1DE81E3D00D75542 /* SDBrowserImageView.m in Sources */,
+				546A83C41DFA623000DE3AD9 /* Serve.m in Sources */,
 				547208F21DED524000AD5DB8 /* LoginVC.m in Sources */,
 				5465D09F1DE678A7006267DC /* UILabel+VerticalAlign.m in Sources */,
 				5479E1101DF6BFF600772C81 /* OrderVC.m in Sources */,
@@ -804,9 +830,11 @@
 				5472790B1DEFCCF000D18D09 /* WeatherViewController.m in Sources */,
 				542920EF1DF7EC7300FABC15 /* PreferentialViewController.m in Sources */,
 				547C601B1DF79B210064517C /* SetupViewController.m in Sources */,
+				5483E5F01DFA356000CDFECC /* FeedBackViewController.m in Sources */,
 				5465D0A01DE678A7006267DC /* UINavigationBar+Awesome.m in Sources */,
 				5465D08B1DE67830006267DC /* NaviViewController.m in Sources */,
 				542920E91DF7B09C00FABC15 /* AboutWeViewController.m in Sources */,
+				546A83C71DFA87D600DE3AD9 /* DateViewController.m in Sources */,
 				5472791D1DF01FB500D18D09 /* WeatherCell.m in Sources */,
 				5475A8541DE5724300395B8A /* main.m in Sources */,
 				5465D0BC1DE68190006267DC /* OrderViewController.m in Sources */,
@@ -815,7 +843,9 @@
 				5465D0B91DE67D9C006267DC /* tabbarViewController.m in Sources */,
 				5465D09D1DE678A7006267DC /* UIButton+CountDown.m in Sources */,
 				547279141DEFFF6500D18D09 /* ZNNetWorkTool.m in Sources */,
+				5483E5F31DFA47E600CDFECC /* SerVerViewController.m in Sources */,
 				549D8D7B1DF4FA480022A806 /* AddCarViewController.m in Sources */,
+				5483E5F61DFA4C1700CDFECC /* ServerCollectionViewCell.m in Sources */,
 				5465D0BF1DE6819D006267DC /* ForumViewController.m in Sources */,
 				5465D0B61DE67ACF006267DC /* HomeViewController.m in Sources */,
 				54A399F11DE7DFFF00D75542 /* SDWeiXinPhotoContainerView.m in Sources */,
