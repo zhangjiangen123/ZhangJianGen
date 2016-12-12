@@ -55,6 +55,7 @@
 		5483E5F31DFA47E600CDFECC /* SerVerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5483E5F21DFA47E600CDFECC /* SerVerViewController.m */; };
 		5483E5F61DFA4C1700CDFECC /* ServerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5483E5F51DFA4C1700CDFECC /* ServerCollectionViewCell.m */; };
 		548CAD8E1DF25E8B00FA0EFC /* XiCheViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 548CAD8D1DF25E8B00FA0EFC /* XiCheViewController.m */; };
+		548F7A381DFBA6100059DFA1 /* MyInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 548F7A371DFBA6100059DFA1 /* MyInfoViewController.m */; };
 		54924E031DEECFD2004F36F1 /* MeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54924E021DEECFD2004F36F1 /* MeTableViewCell.m */; };
 		549D8D7B1DF4FA480022A806 /* AddCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 549D8D7A1DF4FA480022A806 /* AddCarViewController.m */; };
 		549D8D7E1DF513E80022A806 /* AddCarLb.m in Sources */ = {isa = PBXBuildFile; fileRef = 549D8D7D1DF513E80022A806 /* AddCarLb.m */; };
@@ -181,6 +182,8 @@
 		5483E5F51DFA4C1700CDFECC /* ServerCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerCollectionViewCell.m; sourceTree = "<group>"; };
 		548CAD8C1DF25E8B00FA0EFC /* XiCheViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XiCheViewController.h; sourceTree = "<group>"; };
 		548CAD8D1DF25E8B00FA0EFC /* XiCheViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XiCheViewController.m; sourceTree = "<group>"; };
+		548F7A361DFBA6100059DFA1 /* MyInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyInfoViewController.h; sourceTree = "<group>"; };
+		548F7A371DFBA6100059DFA1 /* MyInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyInfoViewController.m; sourceTree = "<group>"; };
 		54924E011DEECFD2004F36F1 /* MeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MeTableViewCell.h; path = ../../Home/View/MeTableViewCell.h; sourceTree = "<group>"; };
 		54924E021DEECFD2004F36F1 /* MeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MeTableViewCell.m; path = ../../Home/View/MeTableViewCell.m; sourceTree = "<group>"; };
 		549D8D791DF4FA480022A806 /* AddCarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCarViewController.h; sourceTree = "<group>"; };
@@ -375,6 +378,8 @@
 				5479E10F1DF6BFF600772C81 /* OrderVC.m */,
 				547C60191DF79B210064517C /* SetupViewController.h */,
 				547C601A1DF79B210064517C /* SetupViewController.m */,
+				548F7A361DFBA6100059DFA1 /* MyInfoViewController.h */,
+				548F7A371DFBA6100059DFA1 /* MyInfoViewController.m */,
 				542920E71DF7B09C00FABC15 /* AboutWeViewController.h */,
 				542920E81DF7B09C00FABC15 /* AboutWeViewController.m */,
 				542920EA1DF7EB3400FABC15 /* MyCarBaseViewController.h */,
@@ -819,6 +824,7 @@
 				542920F51DF804FD00FABC15 /* QuestionViewController.m in Sources */,
 				5465D0C21DE681AC006267DC /* MeViewController.m in Sources */,
 				5472791A1DF0138A00D18D09 /* WhiteLabel.m in Sources */,
+				548F7A381DFBA6100059DFA1 /* MyInfoViewController.m in Sources */,
 				54924E031DEECFD2004F36F1 /* MeTableViewCell.m in Sources */,
 				548CAD8E1DF25E8B00FA0EFC /* XiCheViewController.m in Sources */,
 				5465D0A11DE678A7006267DC /* UIView+label.m in Sources */,
